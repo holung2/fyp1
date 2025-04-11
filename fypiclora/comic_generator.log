@@ -1,0 +1,96 @@
+2025-03-24 21:25:52,284 - __main__ - INFO - Starting Comic Generator
+2025-03-24 21:25:52,284 - __main__ - INFO - Initializing models...
+2025-03-24 21:28:57,797 - __main__ - ERROR - Model initialization failed: CUDA out of memory. Tried to allocate 144.00 MiB. GPU 0 has a total capacty of 23.99 GiB of which 0 bytes is free. Of the allocated memory 37.97 GiB is allocated by PyTorch, and 42.72 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+2025-03-24 21:45:16,787 - __main__ - INFO - Starting Comic Generator
+2025-03-24 21:45:16,787 - __main__ - INFO - Initializing models...
+2025-03-24 21:48:34,386 - __main__ - ERROR - Model initialization failed: CUDA out of memory. Tried to allocate 180.00 MiB. GPU 0 has a total capacty of 23.99 GiB of which 0 bytes is free. Of the allocated memory 37.90 GiB is allocated by PyTorch, and 76.80 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+2025-03-24 21:51:10,534 - __main__ - INFO - Starting Comic Generator
+2025-03-24 21:51:10,534 - __main__ - INFO - Initializing models...
+2025-03-24 21:54:43,432 - __main__ - ERROR - Model initialization failed: CUDA out of memory. Tried to allocate 216.00 MiB. GPU 0 has a total capacty of 23.99 GiB of which 0 bytes is free. Of the allocated memory 37.88 GiB is allocated by PyTorch, and 77.32 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+2025-03-24 23:08:15,701 - __main__ - INFO - Starting Comic Generator
+2025-03-24 23:08:15,701 - __main__ - INFO - Initializing models...
+2025-03-24 23:11:47,398 - __main__ - ERROR - Model initialization failed: CUDA out of memory. Tried to allocate 144.00 MiB. GPU 0 has a total capacty of 23.99 GiB of which 0 bytes is free. Of the allocated memory 38.04 GiB is allocated by PyTorch, and 6.03 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+2025-03-25 01:05:09,550 - __main__ - INFO - Starting Comic Generator
+2025-03-25 01:05:09,550 - __main__ - INFO - Initializing models...
+2025-03-25 01:08:53,101 - __main__ - ERROR - Model initialization failed: CUDA out of memory. Tried to allocate 144.00 MiB. GPU 0 has a total capacty of 23.99 GiB of which 0 bytes is free. Of the allocated memory 38.04 GiB is allocated by PyTorch, and 6.03 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+2025-03-25 01:14:55,305 - __main__ - INFO - Starting Comic Generator
+2025-03-25 01:14:55,306 - __main__ - INFO - Initializing models...
+2025-03-25 01:22:04,696 - __main__ - INFO - Starting Comic Generator
+2025-03-25 01:22:04,696 - __main__ - INFO - Initializing models...
+2025-03-25 01:23:42,796 - __main__ - INFO - Models initialized in 98.10s
+2025-03-25 01:23:49,390 - __main__ - INFO - Generating scene for topic: eat
+2025-03-25 01:23:57,561 - __main__ - WARNING - Scene validation failed, retry 1
+2025-03-25 01:24:00,894 - __main__ - WARNING - Scene validation failed, retry 2
+2025-03-25 01:24:03,826 - __main__ - WARNING - Scene validation failed, retry 3
+2025-03-25 01:24:03,826 - __main__ - WARNING - Using backup scene generator
+2025-03-25 01:24:03,827 - __main__ - INFO - Generating dialogues
+2025-03-25 01:24:08,202 - __main__ - INFO - Generating comic image
+2025-03-25 01:25:02,512 - __main__ - ERROR - Generation failed: The current scheduler class <class 'diffusers.schedulers.scheduling_dpmsolver_multistep.DPMSolverMultistepScheduler'>'s `set_timesteps` does not support custom sigmas schedules. Please check whether you are using the correct scheduler.
+2025-03-25 01:25:08,096 - __main__ - ERROR - Generation failed: The current scheduler class <class 'diffusers.schedulers.scheduling_dpmsolver_multistep.DPMSolverMultistepScheduler'>'s `set_timesteps` does not support custom sigmas schedules. Please check whether you are using the correct scheduler.
+2025-03-25 01:25:16,837 - __main__ - ERROR - Generation failed: The current scheduler class <class 'diffusers.schedulers.scheduling_dpmsolver_multistep.DPMSolverMultistepScheduler'>'s `set_timesteps` does not support custom sigmas schedules. Please check whether you are using the correct scheduler.
+2025-03-25 01:25:16,838 - __main__ - INFO - Rendering comic
+2025-03-25 01:25:16,839 - __main__ - ERROR - Fatal Error: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+2025-03-25 01:28:50,219 - __main__ - INFO - Starting Comic Generator
+2025-03-25 01:28:50,220 - __main__ - INFO - Initializing models...
+2025-03-25 01:30:28,901 - __main__ - INFO - Models initialized in 98.68s
+2025-03-25 01:30:33,245 - __main__ - INFO - Generating scene for topic: eat
+2025-03-25 01:30:40,999 - __main__ - WARNING - Scene validation failed, retry 1
+2025-03-25 01:30:44,559 - __main__ - WARNING - Scene validation failed, retry 2
+2025-03-25 01:30:47,558 - __main__ - WARNING - Scene validation failed, retry 3
+2025-03-25 01:30:47,558 - __main__ - WARNING - Using backup scene generator
+2025-03-25 01:30:47,564 - __main__ - INFO - Generating dialogues
+2025-03-25 01:30:51,529 - __main__ - INFO - Generating comic image
+2025-03-25 01:31:05,118 - __main__ - ERROR - Generation failed: EulerDiscreteScheduler.set_timesteps() got an unexpected keyword argument 'mu'
+2025-03-25 01:31:11,232 - __main__ - ERROR - Generation failed: EulerDiscreteScheduler.set_timesteps() got an unexpected keyword argument 'mu'
+2025-03-25 01:31:16,392 - __main__ - ERROR - Generation failed: EulerDiscreteScheduler.set_timesteps() got an unexpected keyword argument 'mu'
+2025-03-25 01:31:16,392 - __main__ - INFO - Rendering comic
+2025-03-25 01:31:16,392 - __main__ - ERROR - Image or dialogues are None, cannot render comic.
+2025-03-25 01:31:16,393 - __main__ - ERROR - Fatal Error: 'NoneType' object has no attribute 'save'
+2025-03-25 01:35:04,523 - __main__ - INFO - Starting Comic Generator
+2025-03-25 01:35:04,524 - __main__ - INFO - Initializing models...
+2025-03-25 01:36:42,411 - __main__ - INFO - Models initialized in 97.89s
+2025-03-25 01:36:45,865 - __main__ - INFO - Generating scene for topic: eat
+2025-03-25 01:36:53,071 - __main__ - WARNING - Scene validation failed, retry 1
+2025-03-25 01:36:56,495 - __main__ - WARNING - Scene validation failed, retry 2
+2025-03-25 01:36:59,601 - __main__ - WARNING - Scene validation failed, retry 3
+2025-03-25 01:36:59,601 - __main__ - WARNING - Using backup scene generator
+2025-03-25 01:36:59,602 - __main__ - INFO - Generating dialogues
+2025-03-25 01:37:02,558 - __main__ - INFO - Generating comic image
+2025-03-25 01:37:19,724 - __main__ - ERROR - Generation failed: The current scheduler class <class 'diffusers.schedulers.scheduling_ddim.DDIMScheduler'>'s `set_timesteps` does not support custom sigmas schedules. Please check whether you are using the correct scheduler.
+2025-03-25 01:37:32,963 - __main__ - ERROR - Generation failed: The current scheduler class <class 'diffusers.schedulers.scheduling_ddim.DDIMScheduler'>'s `set_timesteps` does not support custom sigmas schedules. Please check whether you are using the correct scheduler.
+2025-03-25 01:37:45,015 - __main__ - ERROR - Generation failed: The current scheduler class <class 'diffusers.schedulers.scheduling_ddim.DDIMScheduler'>'s `set_timesteps` does not support custom sigmas schedules. Please check whether you are using the correct scheduler.
+2025-03-25 01:37:45,015 - __main__ - INFO - Rendering comic
+2025-03-25 01:37:45,015 - __main__ - ERROR - Image or dialogues are None, cannot render comic.
+2025-03-25 01:37:45,016 - __main__ - ERROR - Fatal Error: 'NoneType' object has no attribute 'save'
+2025-03-25 01:41:48,118 - __main__ - INFO - Starting Comic Generator
+2025-03-25 01:41:48,118 - __main__ - INFO - Initializing models...
+2025-03-25 01:43:13,361 - __main__ - INFO - Using default scheduler: FlowMatchEulerDiscreteScheduler
+2025-03-25 01:43:14,783 - __main__ - INFO - Models initialized in 86.67s
+2025-03-25 01:43:37,081 - __main__ - INFO - Generating scene for topic: eat
+2025-03-25 01:43:43,944 - __main__ - WARNING - Scene validation failed, retry 1
+2025-03-25 01:43:47,522 - __main__ - WARNING - Scene validation failed, retry 2
+2025-03-25 01:43:50,558 - __main__ - WARNING - Scene validation failed, retry 3
+2025-03-25 01:43:50,558 - __main__ - WARNING - Using backup scene generator
+2025-03-25 01:43:50,559 - __main__ - INFO - Generating dialogues
+2025-03-25 01:43:54,419 - __main__ - INFO - Generating comic image
+2025-03-25 01:46:03,567 - __main__ - WARNING - CUDA OOM, retrying with lower resolution
+2025-03-25 01:46:03,617 - __main__ - WARNING - CUDA OOM, retrying with lower resolution
+2025-03-25 01:46:03,623 - __main__ - WARNING - CUDA OOM, retrying with lower resolution
+2025-03-25 01:46:03,625 - __main__ - INFO - Rendering comic
+2025-03-25 01:46:03,625 - __main__ - ERROR - Image or dialogues are None, cannot render comic.
+2025-03-25 01:46:03,626 - __main__ - ERROR - Fatal Error: 'NoneType' object has no attribute 'save'
+2025-03-25 01:50:00,188 - __main__ - INFO - Starting Comic Generator
+2025-03-25 01:50:00,189 - __main__ - INFO - Initializing models...
+2025-03-25 01:51:37,392 - __main__ - INFO - Using default scheduler: FlowMatchEulerDiscreteScheduler
+2025-03-25 01:51:38,814 - __main__ - INFO - Models initialized in 98.62s
+2025-03-25 01:51:45,568 - __main__ - INFO - Generating scene for topic: eat
+2025-03-25 01:51:53,096 - __main__ - WARNING - Scene validation failed, retry 1
+2025-03-25 01:51:56,411 - __main__ - WARNING - Scene validation failed, retry 2
+2025-03-25 01:51:59,568 - __main__ - WARNING - Scene validation failed, retry 3
+2025-03-25 01:51:59,568 - __main__ - WARNING - Using backup scene generator
+2025-03-25 01:51:59,569 - __main__ - INFO - Generating dialogues
+2025-03-25 01:52:03,590 - __main__ - INFO - Generating comic image
+2025-03-25 01:55:04,856 - __main__ - WARNING - CUDA OOM on retry 1, reducing resolution
+2025-03-25 01:55:04,962 - __main__ - WARNING - CUDA OOM on retry 2, reducing resolution
+2025-03-25 01:55:04,971 - __main__ - WARNING - CUDA OOM on retry 3, reducing resolution
+2025-03-25 01:55:04,972 - __main__ - ERROR - Max retries reached, falling back to CPU

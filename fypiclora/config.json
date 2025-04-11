@@ -1,0 +1,7 @@
+{
+    "comic_image_path": "C:\\Users\\a5409.DESKTOP-474T628\\Desktop\\fypiclora\\sea_high_quality.png",
+    "style_image_path": "C:\\Users\\a5409.DESKTOP-474T628\\Desktop\\flux_dev_example.png",
+    "reference_image_path": "C:\\Users\\a5409.DESKTOP-474T628\\Downloads\\ComfyUI_temp_uygmr_00008_.png",
+    "resize_shape": [256, 256],
+    "layout": "2x2"
+}
